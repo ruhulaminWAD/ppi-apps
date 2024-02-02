@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kalpurush', Arial, sans-serif !important;
+    font-weight: 400;
+    background-image: url("../image/bg_main2.gif");
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}
+.content{
+    overflow: hidden;
+    background-color: #fff;
+    width: 1150px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 4px ;
+    padding: 0 20px;
+}
+
+/* ====================== hero_section start  ====================== */
+#hero_section{
+    overflow: hidden;
+}
+/* ======header start====== */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #683091;
+    height: 40px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 4px solid #8BC643;
+}
+header a{
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+header .left{
+    width: 280px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+header .middle{
+    width: 560px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .right{
+    width: 280px;
+    height: 38px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* ======header middel====== */
+header .middle form{
+    padding: 0 3px;
+}
+header .middle form input{
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 4px 8px;
+    border: none;
+    background-color: #8348b1;
+    color: #ffffff;
+}
+header .middle form input:hover{
+    background-color: #286090;
+}
+header .middle form select{
+    width: 130px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 4px 8px;
+    color: #444444;
+}
+/* ======header right====== */
+header .right form{
+    float: right;
+}
+header .right form select{
+    /* width: 130px; */
+    height: 28px;
+    border: none;
+    font-size: 16px;
+    padding: 4px 8px;
+    color: #444444;
+}
+/*=============================== baner_section start ===============================*/
+.baner_section{
+    overflow: hidden;
+    height: 240px;
+    width: 100%;
+    background-image: url('../image/4eef4aa93b57be72ad10aa47ee61bbcf.png');
+    background-size: cover;
+    position: relative;
+}
+.baner_section .logo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 25px;
+    top: 45px;
+}
+.baner_section .logo a{
+    padding-left: 40px;
+    color: #fff;
+    font-size: 27px;
+    line-height: 55px;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 2px 4px 20px #000000;
+}
+.baner_section .logo a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*=============================== Navbar_section start ===============================*/
+nav ul{
+    background-color: #FAFAFA;
+    overflow: hidden;
+    height: 37px;
+    border-bottom: 1px dotted #2b2b2b;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    padding: 7px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #2b2b2b;
+    border-right: 1px dotted #4b4b4b;
+}
+nav ul li a:hover{
+    color: #ffffff;
+    background-color: black;
+}
+nav ul li .bgcolo_3:hover{
+    color: #ffffff;
+    background-color: #8768DE;
+}
+nav ul li .bgcolor_2:hover{
+    color: #ffffff;
+    background-color: #84154D;
+}
+nav ul li .bgcolor_1:hover{
+    color: #ffffff;
+    background-color: #C40A2A;
+}
+/*=============================== filed_section start ===============================*/
+.filed_section{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.filed_section .left_section{
+    width: 820px;
+    float: left;
+}
+.filed_section .right_section{
+    width: 255px;
+    float: right;
+}
+/*============= left_section start =============*/
+.left_section .Notice_board{
+    width: 820px;
+    height: 300px;
+    background-color: #F5F5F5;
+    margin: 20px 20px 20px 0 ;
+    border: 1px solid #cccccc;
+    padding: 20px;   
+}
+.Notice_board p{
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 500; 
+    color: #0e0d0d;
+    padding: 10px 0 40px;
+}
+.Notice_board ul li{
+    list-style: none;
+}
+.Notice_board ul li i{
+    color: #32CD32;
+    margin-right: 10px;
+}
+.Notice_board ul li a{
+    text-decoration: none;
+    color: #444444;
+}
+.Notice_board ul li a:hover{
+    color: #23527C;
+}
+.Notice_board button{
+    color: #444444;
+    border: none;
+    float: right;
+
+}
+.Notice_board button:hover{
+    color: #23527C;
+}
+
+/*============= section_title start =============*/
+.section_title{
+    width: 820px;
+    height: 45px;
+    background-color: #F5F5F5;
+    margin: 20px 20px 20px 0 ;
+    border: 1px solid #cccccc;
+    padding: 11px;
+}
+.section_title p{
+    display: inline-block;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700; 
+    color: #0e0d0d;
+}
+.section_title button{
+    color: #444444;
+    border: none;
+    float: right;
+    padding-right: 10px;
+}
+.section_title button:hover{
+    color: #23527C;
+}
+/*============= card_bord start =============*/
+
+.card_bord .card{
+    float: left;
+    width: 400px;
+    height: 140px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    color: #000;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.card_bord .card_right{
+    float: right;
+}
+.card_bord .card h4{
+    color: #444444;
+    font-size: 21px;
+    font-weight: 400;
+}
+.card_bord .card ul{
+    position: absolute;
+    left: 120px;
+    top: 45px;
+}
+.card_bord .card ul li{
+    list-style: none;
+}
+.card_bord .card ul li i{
+    color: #32CD32;
+    margin-right: 10px;
+}
+.card_bord .card ul li a{
+    display: block;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #2b2b2b;
+}
+.card_bord .card ul li a:hover{
+    color: #23527C;
+    text-decoration: underline;
+
+}
+/* ============= right_section start ============= */
+/* ======================================================================================================= */
+.filed_section .right_section table{
+    width: 100%;
+    border: 1px solid;
+}
+.right_section table tr td{
+    padding: 20px 5px;
+    font-size: 15px;
+
+}
+ 
+.right_section table tr a{
+    text-decoration: none;
+}
+.right_section table tr td sup{
+    padding: 4px;
+}
+.filed_section .right_section img{
+    width: 240px;
+    margin-top: 20px;
+}
+/* ======================================================================================================= */
+.right_section .list{
+    width: 240px;
+}
+.right_section .list ul li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.right_section .list ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+.right_section .list ul li .anquor{
+    padding: 10px 40px;
+    background-color: #609513;
+}
+.right_section .list ul li .anquor:hover{
+    text-decoration: underline;
+}
+.list .show_add{
+    width: 20px;
+    height: 250px;
+}
+
+/* =============== footer section strt ===============*/
+.footer_top img{
+    vertical-align: middle;
+}
+
+footer{
+    background-color: #EBEBEB;
+    padding: 10px 10px 40px;
+    overflow: hidden;
+}
+footer .left_footer{
+    width: 40%;
+    float: left;
+}
+footer .left_footer {
+    width: 40%;
+    float: left;
+}
+footer .right_footer{
+    width: 60%;
+    float: left;
+    text-align: end;
+}
+footer p, a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
